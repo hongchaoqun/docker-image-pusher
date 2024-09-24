@@ -22,10 +22,10 @@ jobs:
         sudo systemctl restart docker
 
     - name: Pull MySQL image from Docker Hub
-      run: docker pull mysql:latest
+      run: docker pull mysql:8.0.32
 
     - name: Tag MySQL image for private registry
-      run: docker tag mysql:latest 116.198.201.187:5000/mysql:latest
+      run: docker tag mysql:8.0.32 47.121.218.83:5000/mysql:8.0.32
 
     - name: Push MySQL image to private registry
-      run: docker push 116.198.201.187:5000/mysql:latest
+      run: docker push 47.121.218.83:5000/mysql:8.0.32
