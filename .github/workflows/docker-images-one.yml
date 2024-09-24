@@ -2,8 +2,7 @@ name: Docker Images One
 
 on:
   push:
-    branches:
-      - main-close
+    branches: [main]
 
 jobs:
   deploy:
