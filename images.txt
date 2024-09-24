@@ -1,1 +1,1 @@
-bin20088/nginx:latest
+18.20.4-alpine
