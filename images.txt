@@ -1,1 +1,1 @@
-node:18-alpine
+elasticsearch:8.13.0
